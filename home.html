@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <link rel="stylesheet" href="styles">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<header>
+    <img src = "logo">
+    <div id ="nav">
+        <div id = "newUser">
+            <a href="http://localhost:4000/newUser">Click to create an account</a>
+            <a href="#">Click</a>
+        </div>
+    </div>
+</header>
+ <form action = "http://localhost:4000/Default" method = "POST">
+     <input type = "text" name = "userName" placeholder="John123" required>
+     <input type = "password" name = "password" required>
+     <br><br>
+     <button type = "submit"> Log in</button>
+ </form>
+</body>
+</html>
